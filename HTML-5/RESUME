@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align:center;
+        color:red;
+        font-weight:bold;
+        font-family:cursive;
+    }
+    h5{
+        font-family:sans-serif;
+        background-color:lightgrey;
+    }
+    table,th,td{
+        border:1px solid black;
+        border-collapse:collapse;
+        padding:4px;
+    }
+</style>
+<body>
+    <u><h1>RESUME</h1></u>
+    <div>
+  <p><b>NAME: VENKATASUDHEER</b><br>
+    Address: raichur(dt),sindhanur(tq)<br>
+    Email id: xyz@gmail.com<br>
+    Mobile no: 988888987</p>
+    </div>
 
+    <h5><b>ACADEMIC DETAILS</b></h5>
+    <table>
+        <thead>
+  <tr>
+      <th>Examination</th>
+      <th>Specialization</th>
+      <th>institute</th>
+      <th>Year</th>
+      <th>Percentage%</th>
+  </tr>
+  </thead>
+  <tr>
+      <td>Under graduation</td>
+      <td>CSE</td>
+      <td>Sjce College</td>
+      <td>2020</td>
+      <td>90%</td>
+  </tr>
+  <tr>
+    <td>Intermediate</td>
+    <td>CSE</td>
+    <td>Sri chaitanaya college</td>
+    <td>2018</td>
+    <td>84%</td>
+</tr>
+    </table>
+
+    <h5><b>FIELDS OF INTEREST</b></h5>
+     <p>webdevelopment,programming</p>
+   
+     <h5><b>TECHNICAL SKILLS</b></h5>
+     <ul>
+     <li><b>Language:</b>(c,c++)</li>
+     <li><strong>Database:</strong>(mysql)</li>
+     <li>datastructures and algorithm</li>
+     </ul>
+   
+     <h5><b>PROJECTS</b></h5>
+ <p>blood donation database</p>
+
+ <h5><b>STRENGTHS</b></h5>
+ <li>Positive attitude</li>
+    <li>Hardworking</li>
+
+</body>
+</html>
