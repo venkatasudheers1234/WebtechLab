@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="webfirststyle.css"/>
 
+    
+    <body>
+<table class="egt">
+    <thead>
+    <tr>
+        <th>DAY</th>
+        <th>11:00 to 12:00</th>
+        <th>12:00 to 1:00</th>
+        <th>1:00 to 2:30</th>
+        <th>2:30 to 3:30</th>
+        <th>3:30 to 4:30</th>
+        <th>4:30 to 5:30</th>
+    </tr>
+    </thead>
+    <tr>
+        <th>MON</th>
+        <td>CS552/CS554</td>
+        <td>CS561/CS562/563</td>
+        <td rowspan="6"></td>
+        <td>CS540</td>
+        <td>CS530</td>
+        <td>CS58L(c1)</td>
+    </tr>
+
+    <tr>
+        <th>TUE</th>
+        <td>CS552/CS554</td>
+        <td>CS520</td>
+        <td>CS540</td>
+        <td>CS530</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>WED</th>
+        <td>CS552/CS554</td>
+        <td>CS520</td>
+        <td>CS540</td>
+        <td>CS530</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>THU</th>
+        <td>CS552/CS554</td>
+        <td>CS530</td>
+        <td>CS540</td>
+        <td>CS530</td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>FRI</th>
+        <td>CS552/CS554</td>
+        <td>CS540</td>
+        <td>CS540</td>
+        <td>CS530</td>
+        <td>CS58L(c1)</td>
+    </tr>
+
+    <tr>
+        <th>SAT</th>
+        <td>CS552/CS554</td>
+        <td>CS510</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+
+</table>
+</body>
+</html>
