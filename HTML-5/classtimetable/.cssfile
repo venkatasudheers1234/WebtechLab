@@ -1,1 +1,13 @@
 
+table,th,td{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+th,td{
+    padding:10px;
+    font-weight:bold;
+}
+
+table{
+    background-image:url('http://college4u.in/wp-content/uploads/2018/10/sjce22.jpg');
+}
