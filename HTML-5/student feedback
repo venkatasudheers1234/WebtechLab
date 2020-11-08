@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>STUDENT FEEDBACK</b></legend>
+           <label for="name">NAME:</label><br>
+           <input type="text" id="name" name="name" placeholder="Your name" autofocus><br><br>
+           <label for="email">Email address:</label><br>
+           <input type="email" id="email" placeholder="xyz@gmail.com" required><br>
 
+           <h5>1. Kindly indicate where do you reside presently*</h5>
+           <input type="radio" id="one" name="first">
+           <label for="one"> Urban</label><br>
+           <input type="radio" id="two" name="second">
+           <label for="two"> Rural</label><br>
+           
+          <h5>2. How effective was the online learning experience? *
+        </h5>
+           <select id="online">
+               <option value="Highly effective">Highly effective</option>
+               <option value="moderate effective">moderate effective</option>
+               <option value="effective">effective</option>
+           </select>
+    
+         <h5>3. How successful was the faculty in creating an environment that was conducive to discussion and learning? *</h5>
+         <input type="checkbox" id="one" name="second">
+         <label for="one">Highly Successful</label>
+         <input type="checkbox" id="two" name="second">
+         <label for="two">moderately Successful</label>
+         <input type="checkbox" id="three" name="second">
+         <label for="three">Successful</label>
+         
+
+
+
+         <label for="textarea"><h5>4. What better could have been done to make online teaching more effective learning experience? *</h5></label>
+         <textarea id="textarea" name="textarea" placeholder="Your answer" rows="4" cols="30" required></textarea><br><br>
+         <input type="submit"> 
+        </fieldset>
+    </form>
+</body>
+</html>
